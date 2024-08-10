@@ -78,9 +78,3 @@ mongoose.connect(
     }
   }
 );
-
-// docker build -t favorites-node .
-// docker run -d --name mongodb --network favorites-net  mongo
-//  docker run --name favorites --network favorites-net -d -p 3000:3000 favorites-node 
-// docker container inspect mongo
-// docker network create favorites-net
